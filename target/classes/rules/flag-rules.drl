@@ -1,0 +1,195 @@
+package rules;
+
+import com.sample.model.CountryFlag;
+
+// --- România
+rule "Romania - red"
+when
+    $c : CountryFlag( country == "Romania" )
+then
+    $c.addColor("red");
+end
+
+rule "Romania - yellow"
+when
+    $c : CountryFlag( country == "Romania" )
+then
+    $c.addColor("yellow");
+end
+
+rule "Romania - blue"
+when
+    $c : CountryFlag( country == "Romania" )
+then
+    $c.addColor("blue");
+end
+
+// --- Suedia
+rule "Sweden - yellow"
+when
+    $c : CountryFlag( country == "Sweden" )
+then
+    $c.addColor("yellow");
+end
+
+rule "Sweden - blue"
+when
+    $c : CountryFlag( country == "Sweden" )
+then
+    $c.addColor("blue");
+end
+
+// --- Italia
+rule "Italy - green"
+when
+    $c : CountryFlag( country == "Italy" )
+then
+    $c.addColor("green");
+end
+
+rule "Italy - white"
+when
+    $c : CountryFlag( country == "Italy" )
+then
+    $c.addColor("white");
+end
+
+rule "Italy - red"
+when
+    $c : CountryFlag( country == "Italy" )
+then
+    $c.addColor("red");
+end
+
+// --- Irlanda
+rule "Ireland - green"
+when
+    $c : CountryFlag( country == "Ireland" )
+then
+    $c.addColor("green");
+end
+
+rule "Ireland - white"
+when
+    $c : CountryFlag( country == "Ireland" )
+then
+    $c.addColor("white");
+end
+
+rule "Ireland - orange"
+when
+    $c : CountryFlag( country == "Ireland" )
+then
+    $c.addColor("orange");
+end
+
+// --- U.S.A.
+rule "USA - red"
+when
+    $c : CountryFlag( country == "U.S.A." )
+then
+    $c.addColor("red");
+end
+
+rule "USA - white"
+when
+    $c : CountryFlag( country == "U.S.A." )
+then
+    $c.addColor("white");
+end
+
+rule "USA - blue"
+when
+    $c : CountryFlag( country == "U.S.A." )
+then
+    $c.addColor("blue");
+end
+
+// --- Belgia
+rule "Belgium - black"
+when
+    $c : CountryFlag( country == "Belgium" )
+then
+    $c.addColor("black");
+end
+
+rule "Belgium - yellow"
+when
+    $c : CountryFlag( country == "Belgium" )
+then
+    $c.addColor("yellow");
+end
+
+rule "Belgium - red"
+when
+    $c : CountryFlag( country == "Belgium" )
+then
+    $c.addColor("red");
+end
+
+// --- Polonia
+rule "Poland - white"
+when
+    $c : CountryFlag( country == "Poland" )
+then
+    $c.addColor("white");
+end
+
+rule "Poland - red"
+when
+    $c : CountryFlag( country == "Poland" )
+then
+    $c.addColor("red");
+end
+
+// --- Monaco
+rule "Monaco - white"
+when
+    $c : CountryFlag( country == "Monaco" )
+then
+    $c.addColor("white");
+end
+
+rule "Monaco - red"
+when
+    $c : CountryFlag( country == "Monaco" )
+then
+    $c.addColor("red");
+end
+
+// --- Panama
+rule "Panama - red"
+when
+    $c : CountryFlag( country == "Panama" )
+then
+    $c.addColor("red");
+end
+
+rule "Panama - white"
+when
+    $c : CountryFlag( country == "Panama" )
+then
+    $c.addColor("white");
+end
+
+rule "Panama - blue"
+when
+    $c : CountryFlag( country == "Panama" )
+then
+    $c.addColor("blue");
+end
+
+// --- Grecia
+rule "Greece - blue"
+when
+    $c : CountryFlag( country == "Greece" )
+then
+    $c.addColor("blue");
+end
+
+rule "Greece - white"
+when
+    $c : CountryFlag( country == "Greece" )
+then
+    $c.addColor("white");
+end
