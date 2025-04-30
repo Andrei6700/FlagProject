@@ -14,3 +14,5 @@
 | Metoda | Platforma   | Cod    |
 | :---:   | :---: | :---: |
 | Decision table | Eclipse   | DT   |
+
+![alt text](<Screenshot 2025-04-29 235043.png>)
